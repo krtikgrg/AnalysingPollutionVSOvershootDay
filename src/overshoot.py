@@ -1,6 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
+from pycaret.regression import *
 
 data = pd.read_csv("../data/overshoot.csv")
 
